@@ -18,6 +18,9 @@ def test(function: Callable, test_table: list) -> None:
     print('Tests finished.')
 
 
+# I want my code to count how many times the substring appears in the main string
+
+
 # Question starts here
 def count_sub_strings(substring: str, main_string: str) -> bool:
     # My code starts here:
