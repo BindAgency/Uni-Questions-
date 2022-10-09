@@ -28,7 +28,12 @@ def count_sub_strings(substring: str, main_string: str) -> bool:
     for test_case in test_table:
         if substring == main_string:
             count = count + 1      
-
+            
+# Question starts here
+def count_sub_strings(substring: str, main_string: str) -> bool:
+    # My code starts here:
+    for test_case in test_table:
+        count = main_string.count(substring)
 
 # Test table - do not amend 
 test_table = [
